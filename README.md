@@ -2,6 +2,8 @@
 
 This repo contains materials regarding pytorch
 
+
+
 # list the environment present in conda
 conda env list
 
@@ -16,3 +18,10 @@ conda activate pytorch1
 # To deactivate an active environment, use
 #
 conda deactivate
+
+
+# install pytorch
+conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch
+
+
+
